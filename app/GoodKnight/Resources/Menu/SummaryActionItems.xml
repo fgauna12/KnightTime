@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/export_as_csv" android:icon="@drawable/ic_action_export"
+        android:title="Export as CSV" android:showAsAction="ifRoom|withText"
+        android:titleTextStyle="@style/MyActionBar.Text"/>
+  <item android:id="@+id/share" android:icon="@drawable/ic_action_share"
+        android:title="Share Results" android:showAsAction="ifRoom"
+        android:titleTextStyle="@style/MyActionBar.Text"/>
+</menu>

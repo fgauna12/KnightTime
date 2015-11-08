@@ -1,0 +1,2788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="org.achartengine">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChartFactory" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="true" name="getBarChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getBarChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+<parameter name="p4" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getBarChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getBubbleChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getBubbleChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getBubbleChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getCombinedXYChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String[]">
+</parameter>
+<parameter name="p4" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getCombinedXYChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getCubeLineChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getCubicLineChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getCubicLineChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getDialChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DialRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getDialChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DialRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getDoughnutChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.MultipleCategorySeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getDoughnutChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.MultipleCategorySeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getLineChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getLineChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getLineChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getPieChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getPieChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getRangeBarChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+<parameter name="p4" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getRangeBarChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getScatterChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getScatterChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getScatterChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getTimeChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getTimeChartIntent" native="false" return="android.content.Intent" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+<parameter name="p4" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getTimeChartView" native="false" return="org.achartengine.GraphicalView" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="CHART" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;chart&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="TITLE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;title&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.app.Activity" extends-generic-aware="android.app.Activity" final="false" name="GraphicalActivity" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="GraphicalActivity" static="false" type="org.achartengine.GraphicalActivity" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="GraphicalView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="GraphicalView" static="false" type="org.achartengine.GraphicalView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="org.achartengine.chart.AbstractChart">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addPanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCurrentSeriesAndPoint" native="false" return="org.achartengine.model.SeriesSelection" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getZoomRectangle" native="false" return="android.graphics.RectF" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removePanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeZoomListener" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="repaint" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="repaint" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomRate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toBitmap" native="false" return="android.graphics.Bitmap" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toRealPoint" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zoomIn" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zoomOut" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zoomReset" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GraphicalView.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GraphicalView.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ITouchHandler" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="addPanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="addZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="handleTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.MotionEvent">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="removePanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="removeZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchHandler" static="false" visibility="public">
+<implements name="org.achartengine.ITouchHandler" name-generic-aware="org.achartengine.ITouchHandler">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="TouchHandler" static="false" type="org.achartengine.TouchHandler" visibility="public">
+<parameter name="p0" type="org.achartengine.GraphicalView">
+</parameter>
+<parameter name="p1" type="org.achartengine.chart.AbstractChart">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addPanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="handleTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.MotionEvent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removePanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchHandlerOld" static="false" visibility="public">
+<implements name="org.achartengine.ITouchHandler" name-generic-aware="org.achartengine.ITouchHandler">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="TouchHandlerOld" static="false" type="org.achartengine.TouchHandlerOld" visibility="public">
+<parameter name="p0" type="org.achartengine.GraphicalView">
+</parameter>
+<parameter name="p1" type="org.achartengine.chart.AbstractChart">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addPanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="handleTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.MotionEvent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removePanListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeZoomListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+</class>
+</package>
+<package name="org.achartengine.chart">
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AbstractChart" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="AbstractChart" static="false" type="org.achartengine.chart.AbstractChart" visibility="public">
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="draw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawBackground" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p1" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="android.graphics.Paint">
+</parameter>
+<parameter name="p7" type="boolean">
+</parameter>
+<parameter name="p8" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLabel" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p3" type="java.util.List&lt;android.graphics.RectF&gt;">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="float">
+</parameter>
+<parameter name="p7" type="float">
+</parameter>
+<parameter name="p8" type="float">
+</parameter>
+<parameter name="p9" type="float">
+</parameter>
+<parameter name="p10" type="int">
+</parameter>
+<parameter name="p11" type="int">
+</parameter>
+<parameter name="p12" type="int">
+</parameter>
+<parameter name="p13" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegend" native="false" return="int" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p2" type="java.lang.String[]">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="int">
+</parameter>
+<parameter name="p8" type="int">
+</parameter>
+<parameter name="p9" type="android.graphics.Paint">
+</parameter>
+<parameter name="p10" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawPath" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="float[]">
+</parameter>
+<parameter name="p2" type="android.graphics.Paint">
+</parameter>
+<parameter name="p3" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawString" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getExceed" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendSize" native="false" return="int" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesAndPointForScreenCoordinate" native="false" return="org.achartengine.model.SeriesSelection" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.model.Point">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isNullValue" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isVertical" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.XYChart" extends-generic-aware="org.achartengine.chart.XYChart" final="false" name="BarChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BarChart" static="false" type="org.achartengine.chart.BarChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clickableAreasForPoints" native="false" return="org.achartengine.chart.ClickableArea[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawBar" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="float">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="int">
+</parameter>
+<parameter name="p8" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+<parameter name="p2" type="float[]">
+</parameter>
+<parameter name="p3" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCoeficient" native="false" return="float" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHalfDiffX" native="false" return="float" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Bar&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mType" static="false" transient="false" type="org.achartengine.chart.BarChart.Type" type-generic-aware="org.achartengine.chart.BarChart.Type" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;org.achartengine.chart.BarChart.Type&gt;" final="true" name="BarChart.Type" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="org.achartengine.chart.BarChart.Type" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="org.achartengine.chart.BarChart.Type[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="DEFAULT" static="true" transient="false" type="org.achartengine.chart.BarChart.Type" type-generic-aware="org.achartengine.chart.BarChart.Type" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="STACKED" static="true" transient="false" type="org.achartengine.chart.BarChart.Type" type-generic-aware="org.achartengine.chart.BarChart.Type" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.XYChart" extends-generic-aware="org.achartengine.chart.XYChart" final="false" name="BubbleChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BubbleChart" static="false" type="org.achartengine.chart.BubbleChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clickableAreasForPoints" native="false" return="org.achartengine.chart.ClickableArea[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+<parameter name="p2" type="float[]">
+</parameter>
+<parameter name="p3" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Bubble&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ClickableArea" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ClickableArea" static="false" type="org.achartengine.chart.ClickableArea" visibility="public">
+<parameter name="p0" type="android.graphics.RectF">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="double">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRect" native="false" return="android.graphics.RectF" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getX" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getY" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.XYChart" extends-generic-aware="org.achartengine.chart.XYChart" final="false" name="CombinedXYChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CombinedXYChart" static="false" type="org.achartengine.chart.CombinedXYChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="java.lang.String[]">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clickableAreasForPoints" native="false" return="org.achartengine.chart.ClickableArea[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+<parameter name="p2" type="float[]">
+</parameter>
+<parameter name="p3" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.LineChart" extends-generic-aware="org.achartengine.chart.LineChart" final="false" name="CubicLineChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CubicLineChart" static="false" type="org.achartengine.chart.CubicLineChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CubicLineChart" static="false" type="org.achartengine.chart.CubicLineChart" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Cubic&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.RoundChart" extends-generic-aware="org.achartengine.chart.RoundChart" final="false" name="DialChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DialChart" static="false" type="org.achartengine.chart.DialChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.DialRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="draw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.RoundChart" extends-generic-aware="org.achartengine.chart.RoundChart" final="false" name="DoughnutChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DoughnutChart" static="false" type="org.achartengine.chart.DoughnutChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.MultipleCategorySeries">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="draw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.XYChart" extends-generic-aware="org.achartengine.chart.XYChart" final="false" name="LineChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="LineChart" static="false" type="org.achartengine.chart.LineChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clickableAreasForPoints" native="false" return="org.achartengine.chart.ClickableArea[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+<parameter name="p2" type="float[]">
+</parameter>
+<parameter name="p3" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Line&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.RoundChart" extends-generic-aware="org.achartengine.chart.RoundChart" final="false" name="PieChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="PieChart" static="false" type="org.achartengine.chart.PieChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="draw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PieMapper" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="PieMapper" static="false" type="org.achartengine.chart.PieMapper" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addPieSegment" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="areAllSegmentPresent" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clearPieSegments" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAngle" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.model.Point">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesAndPointForScreenCoordinate" native="false" return="org.achartengine.model.SeriesSelection" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.model.Point">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isOnPieChart" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.model.Point">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDimensions" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PieSegment" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="PieSegment" static="false" type="org.achartengine.chart.PieSegment" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDataIndex" native="false" return="int" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getEndAngle" native="false" return="float" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getStartAngle" native="false" return="float" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValue" native="false" return="float" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInSegment" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;org.achartengine.chart.PointStyle&gt;" final="true" name="PointStyle" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getIndexForName" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPointStyleForName" native="false" return="org.achartengine.chart.PointStyle" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="org.achartengine.chart.PointStyle" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="org.achartengine.chart.PointStyle[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="CIRCLE" static="true" transient="false" type="org.achartengine.chart.PointStyle" type-generic-aware="org.achartengine.chart.PointStyle" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DIAMOND" static="true" transient="false" type="org.achartengine.chart.PointStyle" type-generic-aware="org.achartengine.chart.PointStyle" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="POINT" static="true" transient="false" type="org.achartengine.chart.PointStyle" type-generic-aware="org.achartengine.chart.PointStyle" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SQUARE" static="true" transient="false" type="org.achartengine.chart.PointStyle" type-generic-aware="org.achartengine.chart.PointStyle" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="TRIANGLE" static="true" transient="false" type="org.achartengine.chart.PointStyle" type-generic-aware="org.achartengine.chart.PointStyle" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="X" static="true" transient="false" type="org.achartengine.chart.PointStyle" type-generic-aware="org.achartengine.chart.PointStyle" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.BarChart" extends-generic-aware="org.achartengine.chart.BarChart" final="false" name="RangeBarChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RangeBarChart" static="false" type="org.achartengine.chart.RangeBarChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="org.achartengine.chart.BarChart.Type">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;RangeBar&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="org.achartengine.chart.AbstractChart" extends-generic-aware="org.achartengine.chart.AbstractChart" final="false" name="RoundChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RoundChart" static="false" type="org.achartengine.chart.RoundChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.CategorySeries">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.DefaultRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCenterX" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCenterY" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRenderer" native="false" return="org.achartengine.renderer.DefaultRenderer" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setCenterX" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setCenterY" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="NO_VALUE" static="true" transient="false" type="int" type-generic-aware="int" value="2147483647" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SHAPE_WIDTH" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mCenterX" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mCenterY" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mDataset" static="false" transient="false" type="org.achartengine.model.CategorySeries" type-generic-aware="org.achartengine.model.CategorySeries" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mRenderer" static="false" transient="false" type="org.achartengine.renderer.DefaultRenderer" type-generic-aware="org.achartengine.renderer.DefaultRenderer" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.XYChart" extends-generic-aware="org.achartengine.chart.XYChart" final="false" name="ScatterChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ScatterChart" static="false" type="org.achartengine.chart.ScatterChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clickableAreasForPoints" native="false" return="org.achartengine.chart.ClickableArea[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawLegendShape" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+<parameter name="p2" type="float[]">
+</parameter>
+<parameter name="p3" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendShapeWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Scatter&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ScatterChart.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.chart.LineChart" extends-generic-aware="org.achartengine.chart.LineChart" final="false" name="TimeChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TimeChart" static="false" type="org.achartengine.chart.TimeChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDateFormat" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isXAxisSmart" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDateFormat" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXAxisSmart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="DAY" static="true" transient="false" type="long" type-generic-aware="long" value="86400000L" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;Time&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="org.achartengine.chart.AbstractChart" extends-generic-aware="org.achartengine.chart.AbstractChart" final="false" name="XYChart" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="XYChart" static="false" type="org.achartengine.chart.XYChart" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="XYChart" static="false" type="org.achartengine.chart.XYChart" visibility="protected">
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="clickableAreasForPoints" native="false" return="org.achartengine.chart.ClickableArea[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="float[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="draw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawChartValuesText" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYSeries">
+</parameter>
+<parameter name="p2" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p3" type="android.graphics.Paint">
+</parameter>
+<parameter name="p4" type="float[]">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+<parameter name="p2" type="float[]">
+</parameter>
+<parameter name="p3" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawSeries" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="org.achartengine.model.XYSeries">
+</parameter>
+<parameter name="p1" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p2" type="android.graphics.Paint">
+</parameter>
+<parameter name="p3" type="java.util.List&lt;java.lang.Float&gt;">
+</parameter>
+<parameter name="p4" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+<parameter name="p5" type="float">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation">
+</parameter>
+<parameter name="p8" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawText" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="android.graphics.Paint">
+</parameter>
+<parameter name="p5" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawXLabels" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.util.List&lt;java.lang.Double&gt;">
+</parameter>
+<parameter name="p1" type="java.lang.Double[]">
+</parameter>
+<parameter name="p2" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p3" type="android.graphics.Paint">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="double">
+</parameter>
+<parameter name="p8" type="double">
+</parameter>
+<parameter name="p9" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawXTextLabels" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.lang.Double[]">
+</parameter>
+<parameter name="p1" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p2" type="android.graphics.Paint">
+</parameter>
+<parameter name="p3" type="boolean">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="double">
+</parameter>
+<parameter name="p8" type="double">
+</parameter>
+<parameter name="p9" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawYLabels" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.util.Map&lt;java.lang.Integer, java.util.List&lt;java.lang.Double&gt;&gt;">
+</parameter>
+<parameter name="p1" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p2" type="android.graphics.Paint">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="int">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+<parameter name="p7" type="double[]">
+</parameter>
+<parameter name="p8" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCalcRange" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getChartType" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDataset" native="false" return="org.achartengine.model.XYMultipleSeriesDataset" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDefaultMinimum" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLabel" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPointsChart" native="false" return="org.achartengine.chart.ScatterChart" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRenderer" native="false" return="org.achartengine.renderer.XYMultipleSeriesRenderer" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getScreenR" native="false" return="android.graphics.Rect" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXLabels" native="false" return="java.util.List&lt;java.lang.Double&gt;" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYLabels" native="false" return="java.util.Map&lt;java.lang.Integer, java.util.List&lt;java.lang.Double&gt;&gt;" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="double[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRenderNullValues" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRenderPoints" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setCalcRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDatasetRenderer" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="org.achartengine.model.XYMultipleSeriesDataset">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.XYMultipleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setScreenR" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Rect">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toRealPoint" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toRealPoint" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toScreenPoint" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toScreenPoint" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="mDataset" static="false" transient="false" type="org.achartengine.model.XYMultipleSeriesDataset" type-generic-aware="org.achartengine.model.XYMultipleSeriesDataset" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mRenderer" static="false" transient="false" type="org.achartengine.renderer.XYMultipleSeriesRenderer" type-generic-aware="org.achartengine.renderer.XYMultipleSeriesRenderer" visibility="protected" volatile="false">
+</field>
+</class>
+</package>
+<package name="org.achartengine.model">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CategorySeries" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="CategorySeries" static="false" type="org.achartengine.model.CategorySeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCategory" native="false" return="java.lang.String" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemCount" native="false" return="int" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValue" native="false" return="double" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="set" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toXYSeries" native="false" return="org.achartengine.model.XYSeries" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MultipleCategorySeries" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="MultipleCategorySeries" static="false" type="org.achartengine.model.MultipleCategorySeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="java.lang.String[]">
+</parameter>
+<parameter name="p2" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String[]">
+</parameter>
+<parameter name="p1" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCategoriesCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCategory" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitles" native="false" return="java.lang.String[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValues" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toXYSeries" native="false" return="org.achartengine.model.XYSeries" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="Point" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="Point" static="false" type="org.achartengine.model.Point" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="Point" static="false" type="org.achartengine.model.Point" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getX" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getY" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setX" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setY" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.model.CategorySeries" extends-generic-aware="org.achartengine.model.CategorySeries" final="false" name="RangeCategorySeries" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RangeCategorySeries" static="false" type="org.achartengine.model.RangeCategorySeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaximumValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinimumValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SeriesSelection" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SeriesSelection" static="false" type="org.achartengine.model.SeriesSelection" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="double">
+</parameter>
+<parameter name="p3" type="double">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPointIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.model.XYSeries" extends-generic-aware="org.achartengine.model.XYSeries" final="false" name="TimeSeries" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TimeSeries" static="false" type="org.achartengine.model.TimeSeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="java.util.Date">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="XYMultipleSeriesDataset" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="XYMultipleSeriesDataset" static="false" type="org.achartengine.model.XYMultipleSeriesDataset" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addSeries" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="org.achartengine.model.XYSeries">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addSeries" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYSeries">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeries" native="false" return="org.achartengine.model.XYSeries[]" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesAt" native="false" return="org.achartengine.model.XYSeries" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesCount" native="false" return="int" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeSeries" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeSeries" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.model.XYSeries">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="XYSeries" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="XYSeries" static="false" type="org.achartengine.model.XYSeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="XYSeries" static="false" type="org.achartengine.model.XYSeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getIndexForKey" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemCount" native="false" return="int" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxX" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxY" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinX" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinY" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRange" native="false" return="java.util.SortedMap&lt;java.lang.Double, java.lang.Double&gt;" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getScaleNumber" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getX" native="false" return="double" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getY" native="false" return="double" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.model.XYSeries" extends-generic-aware="org.achartengine.model.XYSeries" final="false" name="XYValueSeries" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="XYValueSeries" static="false" type="org.achartengine.model.XYValueSeries" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValue" native="false" return="double" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+</package>
+<package name="org.achartengine.renderer">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BasicStroke" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="BasicStroke" static="false" type="org.achartengine.renderer.BasicStroke" visibility="public">
+<parameter name="p0" type="android.graphics.Paint.Cap">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint.Join">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float[]">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCap" native="false" return="android.graphics.Paint.Cap" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getIntervals" native="false" return="float[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getJoin" native="false" return="android.graphics.Paint.Join" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMiter" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPhase" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="DASHED" static="true" transient="false" type="org.achartengine.renderer.BasicStroke" type-generic-aware="org.achartengine.renderer.BasicStroke" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DOTTED" static="true" transient="false" type="org.achartengine.renderer.BasicStroke" type-generic-aware="org.achartengine.renderer.BasicStroke" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SOLID" static="true" transient="false" type="org.achartengine.renderer.BasicStroke" type-generic-aware="org.achartengine.renderer.BasicStroke" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DefaultRenderer" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="DefaultRenderer" static="false" type="org.achartengine.renderer.DefaultRenderer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addSeriesRenderer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addSeriesRenderer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAxesColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBackgroundColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartTitleTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLabelsColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLabelsTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendHeight" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLegendTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMargins" native="false" return="int[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOriginalScale" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getScale" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSelectableBuffer" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesRendererAt" native="false" return="org.achartengine.renderer.SimpleSeriesRenderer" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesRendererCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSeriesRenderers" native="false" return="org.achartengine.renderer.SimpleSeriesRenderer[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getStartAngle" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTextTypefaceName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTextTypefaceStyle" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getZoomRate" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isAntialiasing" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isApplyBackgroundColor" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isClickEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isExternalZoomEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFitLegend" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInScroll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isPanEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowAxes" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowCustomTextGrid" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowGridX" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowGridY" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowLabels" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowLegend" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isZoomButtonsVisible" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isZoomEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeSeriesRenderer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.SimpleSeriesRenderer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAntialiasing" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setApplyBackgroundColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAxesColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setBackgroundColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChartTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChartTitleTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setClickEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setExternalZoomEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFitLegend" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setInScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLabelsColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLabelsTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLegendHeight" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLegendTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMargins" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPanEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setScale" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSelectableBuffer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowAxes" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowCustomTextGrid" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowGrid" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowGridX" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowGridY" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowLabels" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowLegend" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setStartAngle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTextTypeface" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomButtonsVisible" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomRate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="BACKGROUND_COLOR" static="true" transient="false" type="int" type-generic-aware="int" value="-16777216" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NO_COLOR" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="TEXT_COLOR" static="true" transient="false" type="int" type-generic-aware="int" value="-3355444" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.renderer.DefaultRenderer" extends-generic-aware="org.achartengine.renderer.DefaultRenderer" final="false" name="DialRenderer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DialRenderer" static="false" type="org.achartengine.renderer.DialRenderer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAngleMax" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAngleMin" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMajorTicksSpacing" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMinorTicksSpacing" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getVisualTypeForIndex" native="false" return="org.achartengine.renderer.DialRenderer.Type" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMaxValueSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMinValueSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAngleMax" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAngleMin" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMajorTicksSpacing" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMaxValue" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMinValue" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMinorTicksSpacing" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setVisualTypes" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.DialRenderer.Type[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;org.achartengine.renderer.DialRenderer.Type&gt;" final="true" name="DialRenderer.Type" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="org.achartengine.renderer.DialRenderer.Type" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="org.achartengine.renderer.DialRenderer.Type[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="ARROW" static="true" transient="false" type="org.achartengine.renderer.DialRenderer.Type" type-generic-aware="org.achartengine.renderer.DialRenderer.Type" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NEEDLE" static="true" transient="false" type="org.achartengine.renderer.DialRenderer.Type" type-generic-aware="org.achartengine.renderer.DialRenderer.Type" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SimpleSeriesRenderer" static="false" visibility="public">
+<implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="SimpleSeriesRenderer" static="false" type="org.achartengine.renderer.SimpleSeriesRenderer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartValuesSpacing" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartValuesTextAlign" native="false" return="android.graphics.Paint.Align" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChartValuesTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getGradientStartColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getGradientStartValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getGradientStopColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getGradientStopValue" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getStroke" native="false" return="org.achartengine.renderer.BasicStroke" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isDisplayChartValues" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isGradientEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChartValuesSpacing" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChartValuesTextAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Paint.Align">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChartValuesTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDisplayChartValues" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setGradientEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setGradientStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setGradientStop" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setStroke" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.BasicStroke">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.renderer.DefaultRenderer" extends-generic-aware="org.achartengine.renderer.DefaultRenderer" final="false" name="XYMultipleSeriesRenderer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="XYMultipleSeriesRenderer" static="false" type="org.achartengine.renderer.XYMultipleSeriesRenderer" visibility="public">
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="XYMultipleSeriesRenderer" static="false" type="org.achartengine.renderer.XYMultipleSeriesRenderer" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addTextLabel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addXTextLabel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addYTextLabel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addYTextLabel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clearTextLabels" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clearXTextLabels" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clearYTextLabels" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAxisTitleTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBarSpacing" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBarsSpacing" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getGridColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getInitialRange" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getInitialRange" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMarginsColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOrientation" native="false" return="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPanLimits" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPointSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getScalesCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXAxisMax" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXAxisMax" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXAxisMin" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXAxisMin" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXLabels" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXLabelsAlign" native="false" return="android.graphics.Paint.Align" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXLabelsAngle" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXLabelsColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXTextLabel" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXTextLabelLocations" native="false" return="java.lang.Double[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYAxisAlign" native="false" return="android.graphics.Paint.Align" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYAxisMax" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYAxisMax" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYAxisMin" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYAxisMin" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYLabels" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYLabelsAlign" native="false" return="android.graphics.Paint.Align" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYLabelsAngle" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYLabelsColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYTextLabel" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYTextLabel" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYTextLabelLocations" native="false" return="java.lang.Double[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYTextLabelLocations" native="false" return="java.lang.Double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYTitle" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getZoomLimits" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="initAxesRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="initAxesRangeForScale" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInitialRangeSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInitialRangeSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMaxXSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMaxXSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMaxYSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMaxYSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMinXSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMinXSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMinYSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isMinYSet" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isPanXEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isPanYEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isZoomXEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isZoomYEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAxisTitleTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setBarSpacing" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChartValuesTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDisplayChartValues" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setGridColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setInitialRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setInitialRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMarginsColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOrientation" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPanEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPanLimits" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPointSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXAxisMax" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXAxisMax" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXAxisMin" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXAxisMin" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXLabels" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXLabelsAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Paint.Align">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXLabelsAngle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXLabelsColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYAxisAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Paint.Align">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYAxisMax" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYAxisMax" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYAxisMin" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYAxisMin" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYLabels" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYLabelsAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Paint.Align">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYLabelsAlign" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Paint.Align">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYLabelsAngle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYLabelsColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYTitle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomLimits" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation&gt;" final="true" name="XYMultipleSeriesRenderer.Orientation" static="true" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getAngle" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation[]" static="true" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="HORIZONTAL" static="true" transient="false" type="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation" type-generic-aware="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERTICAL" static="true" transient="false" type="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation" type-generic-aware="org.achartengine.renderer.XYMultipleSeriesRenderer.Orientation" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.renderer.SimpleSeriesRenderer" extends-generic-aware="org.achartengine.renderer.SimpleSeriesRenderer" final="false" name="XYSeriesRenderer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="XYSeriesRenderer" static="false" type="org.achartengine.renderer.XYSeriesRenderer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFillBelowLineColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLineWidth" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPointStyle" native="false" return="org.achartengine.chart.PointStyle" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFillBelowLine" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFillPoints" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFillBelowLine" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFillBelowLineColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFillPoints" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLineWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPointStyle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.chart.PointStyle">
+</parameter>
+</method>
+</class>
+</package>
+<package name="org.achartengine.tools">
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AbstractTool" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AbstractTool" static="false" type="org.achartengine.tools.AbstractTool" visibility="public">
+<parameter name="p0" type="org.achartengine.chart.AbstractChart">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkRange" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double[]">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRange" native="false" return="double[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setXRange" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setYRange" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="mChart" static="false" transient="false" type="org.achartengine.chart.AbstractChart" type-generic-aware="org.achartengine.chart.AbstractChart" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mRenderer" static="false" transient="false" type="org.achartengine.renderer.XYMultipleSeriesRenderer" type-generic-aware="org.achartengine.renderer.XYMultipleSeriesRenderer" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.tools.AbstractTool" extends-generic-aware="org.achartengine.tools.AbstractTool" final="false" name="FitZoom" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FitZoom" static="false" type="org.achartengine.tools.FitZoom" visibility="public">
+<parameter name="p0" type="org.achartengine.chart.AbstractChart">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="apply" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.tools.AbstractTool" extends-generic-aware="org.achartengine.tools.AbstractTool" final="false" name="Pan" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="Pan" static="false" type="org.achartengine.tools.Pan" visibility="public">
+<parameter name="p0" type="org.achartengine.chart.AbstractChart">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addPanListener" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="apply" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removePanListener" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.PanListener">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="PanListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="panApplied" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="org.achartengine.tools.AbstractTool" extends-generic-aware="org.achartengine.tools.AbstractTool" final="false" name="Zoom" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="Zoom" static="false" type="org.achartengine.tools.Zoom" visibility="public">
+<parameter name="p0" type="org.achartengine.chart.AbstractChart">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addZoomListener" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="apply" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="notifyZoomResetListeners" native="false" return="void" static="false" synchronized="true" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeZoomListener" native="false" return="void" static="false" synchronized="true" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomRate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="ZOOM_AXIS_X" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ZOOM_AXIS_XY" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ZOOM_AXIS_Y" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ZoomEvent" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ZoomEvent" static="false" type="org.achartengine.tools.ZoomEvent" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getZoomRate" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isZoomIn" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ZoomListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="zoomApplied" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.achartengine.tools.ZoomEvent">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="zoomReset" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+</package>
+<package name="org.achartengine.util">
+<class abstract="false" deprecated="not deprecated" extends="java.util.TreeMap" extends-generic-aware="java.util.TreeMap&lt;K, V&gt;" final="false" name="IndexXYMap" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="K"/>
+<typeParameter name="V"/>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="IndexXYMap" static="false" type="org.achartengine.util.IndexXYMap" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getByIndex" native="false" return="org.achartengine.util.XYEntry&lt;K, V&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getIndexForKey" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="K">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxXDifference" native="false" return="double" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getXByIndex" native="false" return="K" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getYByIndex" native="false" return="V" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeByIndex" native="false" return="org.achartengine.util.XYEntry&lt;K, V&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MathHelper" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="getDoubles" native="false" return="double[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;java.lang.Double&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFloats" native="false" return="float[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;java.lang.Float&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLabels" native="false" return="java.util.List&lt;java.lang.Double&gt;" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+<parameter name="p1" type="double">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="minmax" native="false" return="double[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;java.lang.Double&gt;">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="NULL_VALUE" static="true" transient="false" type="double" type-generic-aware="double" value="1.7976931348623157E308" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="XYEntry" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="K"/>
+<typeParameter name="V"/>
+</typeParameters>
+<implements name="java.util.Map.Entry" name-generic-aware="java.util.Map.Entry&lt;K, V&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="XYEntry" static="false" type="org.achartengine.util.XYEntry" visibility="public">
+<parameter name="p0" type="K">
+</parameter>
+<parameter name="p1" type="V">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getKey" native="false" return="K" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValue" native="false" return="V" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setValue" native="false" return="V" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="V">
+</parameter>
+</method>
+</class>
+</package>
+</api>

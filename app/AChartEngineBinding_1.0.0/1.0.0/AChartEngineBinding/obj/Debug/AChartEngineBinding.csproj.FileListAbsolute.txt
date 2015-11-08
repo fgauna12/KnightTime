@@ -1,0 +1,4 @@
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\bin\Debug\AChartEngineBinding.dll
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\bin\Debug\AChartEngineBinding.pdb
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\obj\Debug\AChartEngineBinding.dll
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\obj\Debug\AChartEngineBinding.pdb

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="com.knighttime.view" android:versionCode="1" android:versionName="Alpha">
+  <uses-sdk android:targetSdkVersion="15" android:minSdkVersion="11" />
+  <application android:label="KnightTime" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:theme="@style/Theme.Activity" android:name="md5c5743c1201eb930bf4a5182bb32af07a.AlarmAlertFullScreen" />
+    <service android:name="md5c5743c1201eb930bf4a5182bb32af07a.KnightTimeAlarmService" />
+    <activity android:label="My Activity" android:name="md5c5743c1201eb930bf4a5182bb32af07a.MonitorBase" />
+    <activity android:label="Select a Device" android:name="md5c5743c1201eb930bf4a5182bb32af07a.ArrayAdapterActivity" />
+    <service android:name="md5c5743c1201eb930bf4a5182bb32af07a.KtService" />
+    <receiver android:name="md5c5743c1201eb930bf4a5182bb32af07a.KnightTimeReceiver" />
+    <activity android:icon="@drawable/knighttimelauncher" android:label="Log In" android:theme="@style/Theme.LogIn" android:name="md5c5743c1201eb930bf4a5182bb32af07a.LogInActivity" />
+    <activity android:icon="@drawable/knighttimelauncher" android:theme="@style/Theme.Activity" android:uiOptions="splitActionBarWhenNarrow" android:name="md5c5743c1201eb930bf4a5182bb32af07a.MainActivity" />
+    <activity android:icon="@drawable/knighttimelauncher" android:label="Monitoring" android:theme="@style/Theme.LogIn" android:name="md5c5743c1201eb930bf4a5182bb32af07a.MonitorActivity" />
+    <activity android:icon="@drawable/knighttimelauncher" android:label="Summary" android:theme="@style/Theme.Activity" android:uiOptions="splitActionBarWhenNarrow" android:name="md5c5743c1201eb930bf4a5182bb32af07a.SummaryActivity" />
+    <activity android:icon="@drawable/knighttimelauncher" android:noHistory="true" android:theme="@style/Theme.SplashEmpty" android:name="md5e25248b724ddb24aa58287b2cd92036e.Splash" />
+    <activity android:icon="@drawable/knighttimelauncher" android:label="Monitoring" android:theme="@style/Theme.LogIn" android:name="md57d87049cf3e6ea4c81b5db9f45569a77.MathGame" />
+    <activity android:label="My Activity" android:name="md57d87049cf3e6ea4c81b5db9f45569a77.QRActivity" />
+    <activity android:theme="@style/Theme.Activity" android:name="md57d87049cf3e6ea4c81b5db9f45569a77.ShakeAroundActivity" />
+    <activity android:label="Web Authenticator" android:name="md586bbe9f2bf8a41338a1e63bc334e2cbd.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md586bbe9f2bf8a41338a1e63bc334e2cbd.WebAuthenticatorActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.knighttime.view.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.knighttime.view" />
+      </intent-filter>
+    </receiver>
+    <activity android:icon="@drawable/knighttimelauncher" android:noHistory="true" android:theme="@style/Mono.Android.Theme.Splash" android:name="com.knighttime.view.TrialSplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="false" />
+  <!--<service android:name="KTService">
+		<intent-filter>
+			<action android:name="com.knighttime.knighttimeservice" />
+		</intent-filter>
+	</service>
+  -->
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

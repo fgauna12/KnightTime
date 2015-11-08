@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string-array name="pref_smartAlarmTypes_entries">
+    <item>Math Game</item>
+    <item>QR Code</item>
+    <item>None</item>
+  </string-array>
+  <string-array name="pref_smartAlarmTypes_values">
+    <item>Math</item>
+    <item>QRCode</item>
+    <item>None</item>
+  </string-array>
+  <!-- entries and values are the same for the monitor modes -->
+  <string-array name="pref_monitorModes">
+    <item>REM</item>
+    <item>Sunlight</item>
+    <item>None</item>
+  </string-array>
+</resources>

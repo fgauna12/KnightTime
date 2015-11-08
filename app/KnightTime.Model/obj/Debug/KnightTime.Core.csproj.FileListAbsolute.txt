@@ -1,0 +1,5 @@
+C:\Users\Franks\Desktop\KnightTime\KnightTime.Model\bin\Debug\KnightTime.Core.dll
+C:\Users\Franks\Desktop\KnightTime\KnightTime.Model\bin\Debug\KnightTime.Core.pdb
+C:\Users\Franks\Desktop\KnightTime\KnightTime.Model\obj\Debug\KnightTime.Core.csprojResolveAssemblyReference.cache
+C:\Users\Franks\Desktop\KnightTime\KnightTime.Model\obj\Debug\KnightTime.Core.dll
+C:\Users\Franks\Desktop\KnightTime\KnightTime.Model\obj\Debug\KnightTime.Core.pdb

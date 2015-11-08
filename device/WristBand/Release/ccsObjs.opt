@@ -1,0 +1,1 @@
+"./serial.obj" "./printf.obj" "./main.obj" "./MSP430_MPU6050.obj" "./I2C_MSP430.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 

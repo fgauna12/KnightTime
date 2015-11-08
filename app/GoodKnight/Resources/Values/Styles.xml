@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/knighttimesplash_dark</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="Theme.SplashEmpty" parent="android:Theme">
+    <item name="android:windowBackground">@color/darkblue</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="Theme.Settings" parent="android:Theme">
+      <item name="android:windowBackground">@color/darkblue</item>
+  </style>
+  <style name="Theme.LogIn" parent="android:Theme.Holo">
+    <item name="android:windowBackground">@color/darkblue</item>
+    <item name="android:colorBackground">@color/blue</item>
+    <item name="android:windowNoTitle">false</item>
+  </style>
+  <style name="Theme.Activity" parent="android:Theme.Holo">
+    <item name="android:windowBackground">@color/darkblue</item>
+    <item name="android:colorBackground">@color/blue</item>
+    <item name="android:actionBarStyle">@style/MyActionBar</item>
+  </style>
+  <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+    <item name="android:background">@color/blue</item>
+    <item name="android:titleTextStyle">@style/MyActionBar.Text</item>
+  </style>
+  <style name="MyActionBar.Text" parent="@android:style/TextAppearance">
+    <item name="android:textColor">@color/light_yellow</item>
+  </style>
+  <style name="Container">
+    <item name="android:background">@drawable/container</item>
+  </style>
+  <style name="button_text" >
+    <item name="android:layout_width" >fill_parent</item>
+    <item name="android:layout_height" >wrap_content</item>
+    <item name="android:textColor" >@color/light_yellow</item>
+    <item name="android:gravity" >center</item>
+    <item name="android:layout_margin" >3dp</item>
+    <item name="android:textSize" >20dp</item>
+    <item name="android:textStyle" >bold</item>
+    <item name="android:shadowColor" >@color/darkblue</item>
+    <item name="android:shadowDx" >1</item>
+    <item name="android:shadowDy" >1</item>
+    <item name="android:shadowRadius" >2</item>
+  </style>
+  <style name="button_text2" >
+    <item name="android:layout_width" >fill_parent</item>
+    <item name="android:layout_height" >wrap_content</item>
+    <item name="android:textColor" >@color/darkblue</item>
+    <item name="android:gravity" >center</item>
+    <item name="android:layout_margin" >3dp</item>
+    <item name="android:textSize" >20dp</item>
+    <item name="android:textStyle" >bold</item>
+    <item name="android:shadowColor" >@color/light_yellow</item>
+    <item name="android:shadowDx" >1</item>
+    <item name="android:shadowDy" >1</item>
+    <item name="android:shadowRadius" >2</item>
+  </style>
+</resources>

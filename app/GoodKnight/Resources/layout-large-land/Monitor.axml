@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/layout_large_marginSides"
+        android:layout_marginLeft="@dimen/layout_large_marginSides"
+        android:layout_marginBottom="@dimen/layout_large_marginBottom">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:layout_weight=".4">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_large_marginBottom"
+                android:background="@drawable/gold_button"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:text="Connections"
+                    android:textColor ="@color/darkblue"
+                    android:textStyle ="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/ConnectionsLabel"
+                    android:layout_marginBottom="22.0dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_large_marginSides"
+                    android:layout_marginRight="@dimen/layout_large_marginSides"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/layout_large_marginSides"
+                        android:src="@drawable/ic_action_reload"
+                        android:id="@+id/WristConnectionStateImageView"/>
+                    <TextView
+                        android:text="Wrist Peripheral"
+                        android:textColor ="@color/blue"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_large_marginSides"
+                    android:layout_marginRight="@dimen/layout_large_marginSides"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/layout_large_marginSides"
+                        android:src="@drawable/ic_action_reload"
+                        android:id="@+id/MaskConnectionStateImageView"/>
+                    <TextView
+                        android:text="Mask Peripheral"
+                        android:textColor ="@color/blue"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/MaskLabel" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_large_marginSides"
+                    android:layout_marginRight="@dimen/layout_large_marginSides"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/layout_large_marginSides"
+                        android:src="@drawable/ic_action_reload"
+                        android:id="@+id/BaseStationConnectionStateImageView"/>
+                    <TextView
+                        android:text="Base Station"
+                        android:textColor ="@color/blue"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/BaseStationLabel" />
+                </LinearLayout>
+            </LinearLayout>
+            <radialprogress.RadialProgressView
+                progress_color="#038BBB"
+                progress_type="big"
+                min_value="0"
+                max_value="7"
+                hide_label="true"
+                android:id="@+id/RadialPollProgress"
+                android:layout_width="@dimen/radialView_large"
+                android:layout_height="@dimen/radialView_large"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="0.0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="@dimen/graph_large_width"
+            android:layout_height="@dimen/graph_large_height"
+            android:id="@+id/GraphContainerMonitorActivity"
+            android:layout_weight=".6" />
+    </TableRow>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_large_marginSides"
+        android:layout_marginRight="@dimen/layout_large_marginSides"
+        android:layout_marginBottom="@dimen/layout_large_marginBottom"
+        android:gravity="center_horizontal">
+        <Button
+            android:text="Abort"
+            android:layout_width="@dimen/button_large_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/AbortMonitorButton"
+            android:drawableLeft="@drawable/ic_action_playback_play"
+            android:gravity="center|center_horizontal"
+            android:background="@drawable/gold_button"
+            style="@style/button_text2"
+            android:drawablePadding="-30dp" />
+    </LinearLayout>
+</LinearLayout>

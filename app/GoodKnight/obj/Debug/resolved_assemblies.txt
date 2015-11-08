@@ -1,0 +1,15 @@
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\KnightTime.Android.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\AChartEngineBinding.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\Mono.Data.Sqlite.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\RadialProgress.Android.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\System.Core.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\System.Data.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\System.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\System.Xml.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\Xamarin.Auth.Android.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\System.Transactions.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\Mono.Data.Tds.dll
+C:\Users\Franks\Desktop\KnightTime\GoodKnight\obj\Debug\assemblies\Mono.Security.dll

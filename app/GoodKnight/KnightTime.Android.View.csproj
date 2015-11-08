@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F2164C9-7958-4478-8630-A3B2B381D5FC}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KnightTime.Android.View</RootNamespace>
+    <AssemblyName>KnightTime.Android</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidSupportedAbis>armeabi%3barmeabi-v7a%3bx86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="mscorlib" />
+    <Reference Include="RadialProgress.Android">
+      <HintPath>..\Components\radialprogress-1.0.1\lib\android\RadialProgress.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Auth.Android, Version=1.0.4771.25144, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KnightTime.Model\lib\android\Xamarin.Auth.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\CircularArray.cs">
+      <Link>BusinessLayer\CircularArray.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Contracts\IBusinessEntity.cs">
+      <Link>BusinessLayer\Contracts\IBusinessEntity.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Contracts\IKnightTimeMessage.cs">
+      <Link>BusinessLayer\Contracts\IKnightTimeMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Contracts\IMonitorLoop.cs">
+      <Link>BusinessLayer\Contracts\IMonitorLoop.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Contracts\KnightTimeNetworkMessages.cs">
+      <Link>BusinessLayer\Contracts\KnightTimeNetworkMessages.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Manager.cs">
+      <Link>BusinessLayer\Manager.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Monitor.cs">
+      <Link>BusinessLayer\Monitor.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Poll.cs">
+      <Link>BusinessLayer\Contracts\Poll.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\Run.cs">
+      <Link>BusinessLayer\Run.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\BusinessLayer\SensorData.cs">
+      <Link>BusinessLayer\SensorData.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\DataAccessLayer\KnightTimeRepository.cs">
+      <Link>DataAccessLayer\KnightTimeRepository.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\DataAccessLayer\KnightTimeRunRepository.cs">
+      <Link>DataAccessLayer\KnightTimeRunRepository.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\DataLayer\KnightTimeDatabase.cs">
+      <Link>DataLayer\KnightTimeDatabase.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\DataLayer\KnightTimeRunDatabase.cs">
+      <Link>DataLayer\KnightTimeRunDatabase.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\DataLayer\SQLite.cs">
+      <Link>DataLayer\SQLite.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\Manager\IKnightTimeInterface.cs">
+      <Link>Manager\IKnightTimeInterface.cs</Link>
+    </Compile>
+    <Compile Include="..\KnightTime.Model\Manager\KnightTimeManager.cs">
+      <Link>Manager\KnightTimeManager.cs</Link>
+    </Compile>
+    <Compile Include="AlarmAlertFullScreen.cs" />
+    <Compile Include="AlarmService.cs" />
+    <Compile Include="GraphsFragment.cs" />
+    <Compile Include="IMonitor.cs" />
+    <Compile Include="LineGraph.cs" />
+    <Compile Include="MonitorBase.cs" />
+    <Compile Include="MonitorPanelFragment.cs" />
+    <Compile Include="MonitorPrefences.cs" />
+    <Compile Include="ArrayAdapterActivity.cs" />
+    <Compile Include="BluetoothConnection.cs" />
+    <Compile Include="ResultsFragment.cs" />
+    <Compile Include="SmartAlarms\MathGame.cs" />
+    <Compile Include="SmartAlarms\QRActivity.cs" />
+    <Compile Include="SmartAlarms\ShakeAroundActivity.cs" />
+    <Compile Include="Splash.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="Dialogs\LogInDialog.cs" />
+    <Compile Include="KnightTimeReceiver.cs" />
+    <Compile Include="KnightTimeServiceConnection.cs" />
+    <Compile Include="LogInActivity.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="MonitorAcitivity.cs" />
+    <Compile Include="MonitorBinder.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartMonitorFragment.cs" />
+    <Compile Include="SummaryActivity.cs" />
+    <Compile Include="TabListener.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\Layout\LogIn.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Main.axml" />
+    <AndroidResource Include="Resources\Layout\Monitor.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Settings.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-sw700dp\LogIn.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\LogIn.axml" />
+    <AndroidResource Include="Resources\layout-large\Main.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large-land\Monitor.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Graphs.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\StartMonitor.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\StartMonitor.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\Settings.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Summary.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\Summary.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\AlarmAlert.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\AlarmAlert.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large-land\LogIn.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout-land\LogIn.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout-land\Monitor.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large-land\StartMonitor.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\MonitorPaneFragment.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\MonitorPaneFragment.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ResultsFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\MathGame.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\Strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Layout\TextViewItem.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\knighttimelauncher.png" />
+    <AndroidResource Include="Resources\Values\Styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\blue_button.xml" />
+    <AndroidResource Include="Resources\Values\Color.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\KnightTimeSplash_Dark.png" />
+    <AndroidResource Include="Resources\Drawable\abSettingsButton.png" />
+    <AndroidResource Include="Resources\Menu\ActionItems.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\gold_button.xml" />
+    <AndroidResource Include="Resources\Drawable\KnightTimeLogo_Dark.png" />
+    <AndroidResource Include="Resources\Values\Array.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\container.xml" />
+    <AndroidResource Include="Resources\Drawable\error.png" />
+    <AndroidResource Include="Resources\Drawable\Checkmark.png" />
+    <AndroidResource Include="Resources\Values\Dimensions.xml" />
+    <AndroidResource Include="Resources\Menu\SummaryActionItems.xml" />
+    <AndroidResource Include="Resources\Layout\Simple_Spinner_Item.xml" />
+    <AndroidResource Include="Resources\Layout\MainMenu_Item.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout-large\MainMenu_Item.xml" />
+    <AndroidResource Include="Resources\layout-large\Simple_Spinner_Item.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_alarm_2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_calculator.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_google_play.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_line_chart.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_location_2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_minus.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_news.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_pinterest.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_stamp.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_stumbleupon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_turn_left.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_turn_right.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_alarm_2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_calculator.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_google_play.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_line_chart.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_location_2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_minus.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_news.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_pinterest.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_stamp.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_stumbleupon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_turn_left.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_turn_right.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_alarm_2.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_calculator.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_google_play.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_line_chart.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_location_2.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_minus.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_news.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_pinterest.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_stamp.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_stumbleupon.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_turn_left.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_turn_right.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_alarm.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_knight.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_music_2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_phone.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_plane.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_playback_play.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_playback_stop.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_reload.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_sun.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_tick.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_volume_mute.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_volume_up.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_alarm.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_cancel.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_export.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_knight.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_music_2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_phone.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_plane.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_playback_play.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_playback_stop.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_reload.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_sun.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_volume_mute.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_volume_up.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_clock.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_rocket.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_clock.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_rocket.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_share.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_share.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_bulb.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_bulb.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_alarm.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_heart.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_heart.png" />
+    <AndroidResource Include="Resources\Layout\Results_Item.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\results_item_bg.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\results_item_bg_pressed.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\results_item_bg.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\results_item_bg_pressed.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_happy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_sad.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_sad.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_happy.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_happy.png" />
+    <AndroidResource Include="Resources\Drawable\ic_action_sad.png" />
+    <AndroidResource Include="Resources\Drawable\results_item_blue_bg.xml" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_heart.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_sad.png" />
+    <TransformFile Include="Resources\drawable-mdpi\results_selector.xml" />
+    <TransformFile Include="Resources\drawable-hdpi\results_selector.xml" />
+    <TransformFile Include="Resources\Drawable\results_selector.xml" />
+    <AndroidResource Include="Resources\Drawable\results_item_bg.xml" />
+    <AndroidResource Include="Resources\Drawable\results_item_bg_pressed.xml" />
+    <AndroidResource Include="Resources\Values\integers.xml" />
+    <InputJar Include="achartengine-1.0.0.jar" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="radialprogress">
+      <Visible>False</Visible>
+      <Version>1.0.1</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamarin.auth">
+      <Visible>False</Visible>
+      <Version>1.0.1</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AChartEngineBinding\AChartEngineBinding.csproj">
+      <Project>{52666a1a-63b5-482e-b348-ad984aeb37e0}</Project>
+      <Name>AChartEngineBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties ProjectLinkReference="b2bd2b63-bf35-4c33-9858-2f3cef50f283" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

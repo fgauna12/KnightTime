@@ -1,0 +1,4 @@
+C:\Users\Franks\Desktop\KnightTime\AChartEngineBinding\bin\Debug\AChartEngineBinding.dll
+C:\Users\Franks\Desktop\KnightTime\AChartEngineBinding\bin\Debug\AChartEngineBinding.pdb
+C:\Users\Franks\Desktop\KnightTime\AChartEngineBinding\obj\Debug\AChartEngineBinding.dll
+C:\Users\Franks\Desktop\KnightTime\AChartEngineBinding\obj\Debug\AChartEngineBinding.pdb

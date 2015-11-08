@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">KnightTime</string>
+    <string name="DefaultNone">None</string>
+    <string name="SetTimeMessageLabel">Wake up by</string>
+    <string name="ModeMessageLabel">Monitor my</string>
+    <string name="StopMonitorText">Stop</string>
+    <string name="StartMonitorText">I\'m ready to sleep</string>
+</resources>

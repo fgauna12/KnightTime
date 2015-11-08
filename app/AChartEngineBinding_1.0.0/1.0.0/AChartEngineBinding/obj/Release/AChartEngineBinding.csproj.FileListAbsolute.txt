@@ -1,0 +1,4 @@
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\bin\Release\AChartEngineBinding.dll
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\bin\Release\AChartEngineBinding.pdb
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\obj\Release\AChartEngineBinding.dll
+Z:\Senior Design II Repository\AChartEngineBinding\AChartEngineBinding\obj\Release\AChartEngineBinding.pdb

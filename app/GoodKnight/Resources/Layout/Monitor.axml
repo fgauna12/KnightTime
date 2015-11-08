@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+            <LinearLayout
+                android:layout_marginRight="@dimen/layout_medium_marginSides"
+                android:layout_marginBottom="@dimen/layout_medium_marginBottom"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:id="@+id/ConnectionInfoContainer"
+                android:layout_weight="2">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Container"
+                    android:gravity="center_horizontal">
+                    <TextView
+                        android:text="Connections"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/ConnectionsLabel"
+                        android:layout_marginBottom="22.0dp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_medium_marginSides"
+                        android:gravity="center_vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/WristConnectionStateImageView" />
+                        <TextView
+                            android:text="Wrist Peripheral"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/WristLabel" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_medium_marginSides"
+                        android:gravity="center_vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/MaskConnectionStateImageView"/>
+                        <TextView
+                            android:text="Mask Peripheral"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/MaskLabel" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/layout_medium_marginSides"
+                        android:gravity="center_vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/BaseStationConnectionStateImageView"/>
+                        <TextView
+                            android:text="Base Station"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/BaseStationLabel" />
+                    </LinearLayout>
+                </LinearLayout>
+                <radialprogress.RadialProgressView
+                    progress_color="#038BBB"
+                    progress_type="small"
+                    min_value="0"
+                    max_value="7"
+                    hide_label="true"
+                    android:id="@+id/RadialPollProgress"
+                    android:layout_width="@dimen/radialView_medium"
+                    android:layout_height="@dimen/radialView_medium"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="0.0dp" />
+            </LinearLayout>
+        </TableRow>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/GraphContainerMonitorActivity"
+            android:layout_weight="1"
+            android:layout_alignLeft="@id/ConnectionInfoContainer"
+            android:visibility="invisible" />
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_medium_marginSides"
+        android:layout_marginRight="@dimen/layout_medium_marginSides"
+        android:layout_marginBottom="@dimen/layout_medium_marginBottom"
+        android:gravity="center_horizontal">
+        <Button
+            android:text="Abort"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AbortMonitorButton"
+            android:background="@drawable/gold_button"
+            style="@style/button_text2" />
+    </LinearLayout>
+</LinearLayout>

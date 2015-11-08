@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:id="@+id/StartMonitor">
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="54dp"
+        android:text="DigitalClock"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_large_marginTop"
+        android:layout_marginBottom="@dimen/layout_large_marginBottom"
+        android:layout_weight="1" />
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/MainMenuListView"
+        android:layout_weight="50" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/layout_large_marginBottom"
+        android:layout_marginLeft="@dimen/layout_large_marginSides"
+        android:layout_marginRight="@dimen/layout_large_marginSides"
+        android:layout_weight="1">
+        <Button
+            android:text="Start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/StartStopButton"
+            android:background="@drawable/gold_button"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            style="@style/button_text2"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
